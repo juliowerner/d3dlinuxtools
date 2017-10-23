@@ -1,7 +1,7 @@
 #!/bin/bash
 # Run Delft3d FLOW
 # Usage:
-# rund3d [MDF FILE] [NofPARTITIONS]
+# d3drun [MDF FILE] [NofPARTITIONS]
 
 MDFFILE=$1
 NPART=$2
