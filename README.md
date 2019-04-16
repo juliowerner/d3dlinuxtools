@@ -1,3 +1,3 @@
 # d3dlinuxtools
 
-Tools to automate running of Delft3d projects on Linux Machines
+Tools for running Delft3d projects on Linux Machines
