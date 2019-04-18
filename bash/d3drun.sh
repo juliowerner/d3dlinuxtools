@@ -37,7 +37,7 @@ exedir=$D3D_HOME/flow2d3d/bin
 export LD_LIBRARY_PATH=$exedir:$LD_LIBRARY_PATH 
 export PATH="/opt/mpich-intel/bin:${PATH}"
 
-if  [[ ("$NPAR" > 1) ]] ; then
+if  [[ ("$NPART" > 1) ]] ; then
   mpirun -np $NPART $exedir/d_hydro.exe current_run.xml
 else
   $exedir/d_hydro.exe current_run.xml
